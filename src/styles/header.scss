@@ -7,12 +7,14 @@ nav {
   justify-content: space-between;
   align-items: center;
   position: sticky;
-  background-color: $first;
+  background-color: #f5fffa;
   top: 0%;
   z-index: 10;
 
   > h1 {
     text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
   }
 
   > main {
