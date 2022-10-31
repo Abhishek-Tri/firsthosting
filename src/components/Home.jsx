@@ -3,8 +3,8 @@ import vg from "../assets/2.webp";
 import {
   AiFillGoogleCircle,
   AiFillAmazonCircle,
-  AiFillYoutube,
-  AiFillInstagram,
+  AiFillApple,
+  AiFillFacebook,
 } from "react-icons/ai";
 
 const Home = () => {
@@ -13,7 +13,7 @@ const Home = () => {
       <div className="home" id="home">
         <main>
           <h1>AbhiShek Tiwari</h1>
-          <p>Solution to all your problems</p>
+          <p>Everyday Should Be Progressive :)</p>
         </main>
       </div>
 
@@ -44,16 +44,16 @@ const Home = () => {
 
       <div className="home4" id="brands">
         <div>
-          <h1>Social</h1>
+          <h1>Faag</h1>
 
           <article>
             <div
               style={{
-                animationDelay: "0.3s",
+                animationDelay: "0.2s",
               }}
             >
               <AiFillGoogleCircle />
-              <p>Google</p>
+              <a href="https://careers.google.com/"><p>Google</p></a>
             </div>
 
             <div
@@ -62,7 +62,7 @@ const Home = () => {
               }}
             >
               <AiFillAmazonCircle />
-              <p>Amazon</p>
+              <a href="https://www.amazon.jobs/en/"><p>Amazon</p></a>
             </div>
 
             <div
@@ -70,8 +70,8 @@ const Home = () => {
                 animationDelay: "0.7s",
               }}
             >
-              <AiFillYoutube />
-              <p>Youtube</p>
+              <AiFillApple />
+              <a href="https://www.apple.com/careers/in/"><p>Apple</p></a>
             </div>
 
             <div
@@ -79,8 +79,8 @@ const Home = () => {
                 animationDelay: "1s",
               }}
             >
-              <AiFillInstagram />
-              <p>Instagram</p>
+              <AiFillFacebook />
+              <a href="https://research.facebook.com/careers/"><p>Facebook</p></a>
             </div>
           </article>
         </div>
