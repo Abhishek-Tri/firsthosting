@@ -56,7 +56,7 @@
   }
 
   > div {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +68,7 @@
       color: $first;
       letter-spacing: 2px;
       word-spacing: 5px;
-      font: 100 1.2rem $text2;
+      font: 100 1.5rem $text2;
     }
   }
 }
@@ -87,7 +87,7 @@
   display: flex;
 
   > div {
-    width: 70%;
+    width: 75%;
     height: 100vh;
     background-color: $first;
     border-radius: 0 200px 200px 0;
@@ -110,7 +110,7 @@
       letter-spacing: 1px;
       word-spacing: 5px;
       line-height: 170%;
-      font: italic 100 1.2rem $text2;
+      font: italic 100 1.4rem $text2;
     }
   }
 }
